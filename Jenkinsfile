@@ -8,7 +8,7 @@ pipeline {
 
       steps { 
 
-        sh 'g++ working.cpp' 
+        sh 'g++  notworking.cpp' 
 
         build job: "PES2UG20CS553-1", wait: true 
 
